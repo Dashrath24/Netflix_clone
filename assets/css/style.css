@@ -457,3 +457,99 @@ select option {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 15px;
 }
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+/* Scrollable Navbar */
+.nav-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  max-width: 100%;
+  flex-grow: 1;
+}
+
+.nav-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Navbar Items */
+.nav-item {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #666;
+  text-decoration: none;
+
+}
+
+.btn-next {
+  height: 60px;
+  border: 1px solid rgb(43, 43, 43);
+  border-radius: 5px;
+  color: rgb(162, 162, 162);
+  background-color: rgb(76, 76, 76);
+  cursor: pointer;
+  width: 40px;
+  margin: 0 8px;
+}
+
+/* .nav-item.active {
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+} */
+/* Circular Buttons */
+
+
+.bd-radius {
+  border-radius: 9px !important;
+}
+
+.movie-container {
+  /* max-width: 80%; */
+  margin-top: 20px;
+}

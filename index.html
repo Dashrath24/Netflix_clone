@@ -9,6 +9,10 @@
         type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Netflix Clone</title>
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -84,6 +88,44 @@
                             </select>
                         </div>
                     </div>
+                </div>
+                <div class="container-fluid py-3 ps-4 pe-4 movie-container">
+                    <div class="nav-wrapper">
+                        <!-- Left Scroll Button -->
+                        <button class="btn-next " id="scrollLeft">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+
+                        <!-- Scrollable Nav -->
+                        <div class="nav-scroll">
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-1.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-2.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-3.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-4.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-5.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-6.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-7.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-8.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-9.webp" alt=""></a>
+                            <a href="#" class="nav-item "><img class="bd-radius" style="border-radius:9px"
+                                    src="assets/images/movie-10.webp" alt=""></a>
+
+                        </div>
+                        <!-- Right Scroll Button -->
+                        <button class="btn-next" id="scrollRight">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+
                 </div>
                 <div>
                     <p class="trn">More reasons to join</p>
@@ -599,7 +641,7 @@
                                     fill="currentColor"></path>
                             </svg>
                         </button>
-                    </form> 
+                    </form>
                 </div>
             </div>
         </section>
@@ -657,5 +699,6 @@
         });
     });
 </script>
+<script src="assets/javascript/script.js"></script>
 
 </html>
