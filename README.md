@@ -18,7 +18,7 @@ Clone the repository:
 sh
 Copy
 Edit
-git clone https://github.com/dashrath24/netflix_clone.git
+git clone https://github.com/Dashrath24/WatchYourShow.git
 Open index.html in your browser.
 🔮 Future Enhancements
 🎬 Add a video player for movie previews
